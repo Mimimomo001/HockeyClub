@@ -6,6 +6,30 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: [],
+    themes: [
+      {
+        mytheme: {
+        
+          "primary": "#ea580c",
+                  
+          "secondary": "#ffffff",
+                  
+          "accent": "#ffffff",
+                  
+          "neutral": "#ffffff",
+                  
+          "base-100": "#ffffff",
+                  
+          "info": "#ffffff",
+                  
+          "success": "#00ffff",
+                  
+          "warning": "#ffffff",
+                  
+          "error": "#ffffff",
+                  },
+                },
+    ],
+    
   },
 }
