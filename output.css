@@ -8292,6 +8292,11 @@ details.collapse summary::-webkit-details-marker {
   margin-bottom: 0.5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -8441,6 +8446,10 @@ details.collapse summary::-webkit-details-marker {
 
 .h-\[35vh\] {
   height: 35vh;
+}
+
+.h-\[25vh\] {
+  height: 25vh;
 }
 
 .w-1\/2 {
@@ -9395,6 +9404,10 @@ details.collapse summary::-webkit-details-marker {
   border-radius: 0.75rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -9524,6 +9537,21 @@ details.collapse summary::-webkit-details-marker {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.border-stone-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(214 211 209 / var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -9583,6 +9611,10 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-\[url\(\.\/res\/4\.png\)\] {
   background-image: url(./res/4.png);
+}
+
+.bg-\[url\(\.\/Images\/11\.png\)\] {
+  background-image: url(./Images/11.png);
 }
 
 .decoration-slice {
@@ -9719,6 +9751,10 @@ details.collapse summary::-webkit-details-marker {
   padding: 2rem;
 }
 
+.p-24 {
+  padding: 6rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -9757,6 +9793,11 @@ details.collapse summary::-webkit-details-marker {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-6 {
@@ -9862,6 +9903,11 @@ details.collapse summary::-webkit-details-marker {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -10070,6 +10116,10 @@ details.collapse summary::-webkit-details-marker {
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .bg-blend-normal {
@@ -10572,6 +10622,10 @@ details.collapse summary::-webkit-details-marker {
     width: 20rem;
   }
 
+  .lg\:max-w-sm {
+    max-width: 24rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -10594,6 +10648,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:justify-around {
     justify-content: space-around;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
 
   .lg\:px-24 {
